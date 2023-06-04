@@ -1,0 +1,52 @@
+.main {
+  flex: 1 1 auto;
+}
+.post_busk {
+  border-radius: 10px;
+  margin: 10px;
+  width: 500px;
+}
+.info__wrapper {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+@media (max-width: 40rem) {
+  .info__wrapper {
+    display: block;
+  }
+}
+
+.cost {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.card__info {
+  margin-top: 10px;
+}
+.card__info ul li {
+  margin: 2px;
+}
+.post__info {
+  margin-top: 10px;
+}
+.post__title {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.post__title h3 {
+  font-weight: 500;
+}
+.post__info {
+  margin: 10px;
+}
+.post__info h3 {
+  font-size: 18px;
+}
+.post__info p {
+  font-size: 16px;
+  padding: 10px;
+}
